@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-data_hour = pd.read_csv('hour.csv')
-data_day = pd.read_csv('day.csv')
+data_hour = pd.read_csv('https://raw.githubusercontent.com/salsabilakhldh/Bike-Data-Sharing/refs/heads/main/hour.csv')
+data_day = pd.read_csv('https://raw.githubusercontent.com/salsabilakhldh/Bike-Data-Sharing/refs/heads/main/day.csv')
 
 # Title of the Streamlit App
 st.title('Bike Sharing Data Analysis')
